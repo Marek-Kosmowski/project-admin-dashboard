@@ -95,3 +95,48 @@ img.login-avatar-img {
   border: 3px solid red;
   grid-column-start: 2;
 }
+
+/* .sidebar {
+  display: grid;
+  grid-template-rows: 100px repeat(11, 50px);
+} */
+.sidebar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 20px;
+}
+.sidebar-logo img {
+  width: 42px;
+  height: 42px;
+}
+
+.sidebar-title {
+  margin-left: 10px;
+}
+
+.sidebar-content {
+  display: grid;
+  align-items: center;
+  justify-content: start;
+  grid-template-rows: repeat(11, 50px);
+}
+
+.sidebar-element {
+  align-self: center;
+  justify-self: center;
+  margin: 20px;
+}
+
+.settings {
+  grid-row-start: 9;
+  margin: 20px;
+}
+.support {
+  grid-row-start: 10;
+  margin: 20px;
+}
+
+.privacy {
+  grid-row-start: 11;
+}
