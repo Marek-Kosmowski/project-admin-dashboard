@@ -89,6 +89,7 @@ img.login-avatar-img {
   grid-column-start: 1;
   grid-row-start: 1;
   grid-row-end: span 2;
+  background-color: #415a77;
 }
 
 .main-content {
@@ -123,8 +124,9 @@ img.login-avatar-img {
 }
 
 .sidebar-element {
-  align-self: center;
-  justify-self: center;
+  display: flex;
+  /* align-self: center;
+  justify-self: center; */
   margin: 20px;
 }
 
