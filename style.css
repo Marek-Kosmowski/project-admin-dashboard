@@ -28,7 +28,7 @@ img.login-avatar-img {
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
 }
 
 .header {
@@ -85,6 +85,7 @@ img.login-avatar-img {
 }
 
 .sidebar {
+  width: 100%;
   border: 3px solid purple;
   grid-column-start: 1;
   grid-row-start: 1;
@@ -118,6 +119,7 @@ img.login-avatar-img {
 
 .sidebar-content {
   display: grid;
+  grid-template-columns: 100%;
   align-items: center;
   justify-content: start;
   grid-template-rows: repeat(11, 50px);
@@ -125,18 +127,20 @@ img.login-avatar-img {
 
 .sidebar-element {
   display: flex;
-  /* align-self: center;
-  justify-self: center; */
-  margin: 20px;
+  justify-content: start;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.sidebar-element img{
+  margin-right: 15px;
 }
 
 .settings {
   grid-row-start: 9;
-  margin: 20px;
 }
 .support {
   grid-row-start: 10;
-  margin: 20px;
 }
 
 .privacy {
