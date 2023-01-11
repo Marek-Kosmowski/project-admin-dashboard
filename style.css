@@ -86,22 +86,12 @@ img.login-avatar-img {
 
 .sidebar {
   width: 100%;
-  border: 3px solid purple;
   grid-column-start: 1;
   grid-row-start: 1;
   grid-row-end: span 2;
   background-color: #415a77;
 }
 
-.main-content {
-  border: 3px solid red;
-  grid-column-start: 2;
-}
-
-/* .sidebar {
-  display: grid;
-  grid-template-rows: 100px repeat(11, 50px);
-} */
 .sidebar-logo {
   display: flex;
   align-items: center;
@@ -132,7 +122,7 @@ img.login-avatar-img {
   align-items: center;
 }
 
-.sidebar-element img{
+.sidebar-element img {
   margin-right: 15px;
 }
 
@@ -145,4 +135,36 @@ img.login-avatar-img {
 
 .privacy {
   grid-row-start: 11;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.cards-container {
+  grid-column-start: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row: span 3;
+}
+.main-content-nav{}
+
+.main-content-nav-anno {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.main-content-nav-trending {
+  grid-column-start: 2;
+}
+.card-trending-container {
+  grid-column-start: 2;
+}
+
+.card {
+  width: 400px;
+  height: 200px;
+  background-color: #83c5be;
+  box-shadow: #006d77 -5px 0 2px;
+  border-radius: 10px;
 }
