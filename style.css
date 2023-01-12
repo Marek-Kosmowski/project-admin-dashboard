@@ -153,7 +153,6 @@ img.login-avatar-img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 50px repeat(3, 1fr);
-  
 }
 
 .cards-container {
@@ -167,5 +166,15 @@ img.login-avatar-img {
 .card {
   width: 470px;
   height: 150px;
+  background-color: #e0e1dd;
+}
+
+.cards-announcement-content {
+  width: 90%;
+  background-color: #e0e1dd;
+}
+
+.cards-trending-content {
+  width: 90%;
   background-color: #e0e1dd;
 }
