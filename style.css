@@ -4,10 +4,7 @@
 
 ul {
   list-style: none;
-  display: flex;
-  align-items: center;
 }
-
 button {
   width: 100px;
   padding: 10px;
@@ -29,8 +26,45 @@ img.login-avatar-img {
 }
 
 .header {
-  height: 130px;
+  display: grid;
 }
+
+.header-top {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.header-top-left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.search-input {
+  margin-left: 20px;
+  width: 60%;
+}
+.header-top-container {
+  margin-right: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-bottom {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+
+}
+.header-bottom-buttons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-bottom-left{
+  display: flex;
+}
+
 /* .header {
   background-color: #e0e1dd;
   display: grid;
