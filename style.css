@@ -1,15 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
   list-style: none;
 }
 button {
-  width: 100px;
+  width: 120px;
   padding: 10px;
   border-radius: 20px;
   cursor: pointer;
+  background-color: #144272;
+  color: #f5ebe0;
+  border: none;
+  transition: 0.5s;
+  font-weight: 500;
+}
+button:hover {
+  background-color: #f5ebe0;
+  color: #144272;
 }
 
 img.avatar-img {
@@ -25,7 +36,9 @@ img.login-avatar-img {
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 190px;
 }
-
+.header {
+  background-color: #2c74b3;
+}
 .header-top {
   margin-top: 1rem;
   display: grid;
@@ -51,6 +64,7 @@ img.login-avatar-img {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-weight: 500;
 }
 .header-bottom {
   display: grid;
@@ -70,13 +84,17 @@ img.login-avatar-img {
   display: flex;
   justify-content: space-around;
 }
-
+.header-hello {
+  font-weight: 500;
+}
 .sidebar {
   width: 100%;
   grid-column-start: 1;
   grid-row-start: 1;
   grid-row-end: span 2;
-  background-color: #415a77;
+  background-color: #0a2647;
+  color: white;
+  cursor: pointer;
 }
 
 .sidebar-logo {
@@ -128,9 +146,13 @@ img.login-avatar-img {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: repeat(2, 1fr);
-  background-color: #778da9;
+  background-color: #205295;
 }
-
+.main-content-nav,
+.main-content-nav-anno,
+.main-content-nav-trending {
+  font-weight: 500;
+}
 .projects-content {
   margin-top: 10px;
   width: 90%;
@@ -154,8 +176,12 @@ img.login-avatar-img {
   padding: 10px;
   width: 470px;
   height: 150px;
-  background-color: #e0e1dd;
+  background-color: #2c74b3;
   border-radius: 10px;
+  color: #00072d;
+}
+.card p {
+  font-weight: 300;
 }
 .cards-announcement-container {
   margin-top: 10px;
@@ -165,7 +191,7 @@ img.login-avatar-img {
 }
 .cards-announcement-content {
   width: 70%;
-  background-color: #e0e1dd;
+  background-color: #2c74b3;
   border-radius: 10px;
   padding: 10px;
 }
@@ -179,7 +205,7 @@ img.login-avatar-img {
   justify-content: space-between;
   width: 70%;
   height: 70%;
-  background-color: #e0e1dd;
+  background-color: #2c74b3;
   border-radius: 10px;
   padding: 10px;
 }
@@ -199,10 +225,20 @@ img.login-avatar-img {
 }
 
 .card-announcement {
-  border-bottom: solid 1px rebeccapurple;
+  border-bottom: solid 1px #0a2647;
   padding: 15px;
 }
+.card-title {
+  font-weight: 700;
+}
 
+.card-title-announcement {
+  font-weight: 700;
+}
+
+.card-trending-user {
+  font-weight: 700;
+}
 .privacy {
   border: none;
 }
