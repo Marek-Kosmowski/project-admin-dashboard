@@ -9,6 +9,7 @@ button {
   width: 100px;
   padding: 10px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 img.avatar-img {
@@ -130,11 +131,12 @@ img.login-avatar-img {
 .main-content {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 60% 40%;
   background-color: #778da9;
 }
 
 .projects-content {
+  margin-top: 10px;
   width: 90%;
   margin-left: 40px;
   grid-column: 1/2;
@@ -159,19 +161,27 @@ img.login-avatar-img {
   background-color: #e0e1dd;
   border-radius: 10px;
 }
-
+.cards-announcement-container {
+  margin-top: 10px;
+}
+.main-content-nav-anno {
+  margin-bottom: 10px;
+}
 .cards-announcement-content {
-  width: 90%;
+  width: 70%;
   background-color: #e0e1dd;
   border-radius: 10px;
   padding: 10px;
 }
 
+.main-content-nav-trending {
+  margin: 10px 0;
+}
 .cards-trending-content {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 90%;
+  width: 70%;
   height: 70%;
   background-color: #e0e1dd;
   border-radius: 10px;
@@ -189,4 +199,9 @@ img.login-avatar-img {
 }
 .card-trending-user-description {
   grid-column: 2/3;
+}
+
+.card-announcement {
+  border-bottom: solid 1px rebeccapurple;
+  padding: 15px;
 }
