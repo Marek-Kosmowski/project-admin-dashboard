@@ -47,21 +47,17 @@ img.login-avatar-img {
   border: none;
 }
 .header-top-container {
-  margin-right: 7rem;
+  margin-right: 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .header-bottom {
   display: grid;
   grid-template-columns: 70% 30%;
   align-items: center;
 }
-/* .header-bottom-buttons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
+
 .header-bottom-left {
   margin-left: 30px;
   display: flex;
@@ -131,7 +127,7 @@ img.login-avatar-img {
 .main-content {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: 60% 40%;
+  grid-template-rows: repeat(2, 1fr);
   background-color: #778da9;
 }
 
@@ -180,7 +176,7 @@ img.login-avatar-img {
 .cards-trending-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 70%;
   height: 70%;
   background-color: #e0e1dd;
@@ -192,6 +188,7 @@ img.login-avatar-img {
   display: grid;
   grid-template-columns: 50px 1fr;
   align-items: center;
+  margin: 5px;
 }
 .card-trending .avatar-img {
   width: 40px;
@@ -204,4 +201,8 @@ img.login-avatar-img {
 .card-announcement {
   border-bottom: solid 1px rebeccapurple;
   padding: 15px;
+}
+
+.privacy {
+  border: none;
 }
