@@ -1,2 +1,2 @@
 # project-admin-dashboard
-Dashboard designed majority using grid.
+Admin dashboard, designed mostly by using grid.
