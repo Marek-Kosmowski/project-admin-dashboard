@@ -74,64 +74,6 @@ img.login-avatar-img {
   justify-content: space-around;
 }
 
-/* .header {
-  background-color: #e0e1dd;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: repeat(2, 1fr);
-  align-items: center;
-}
-.header-top {
-  grid-column-end: span 2;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.header-top-menu {
-  grid-column: 2/3;
-}
-
-
-.header-top-left {
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-  align-items: center;
-  gap: 15px;
-}
-.header-top-left img {
-  justify-self: end;
-}
-
-.header-bottom-left {
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-  grid-template-rows: repeat(2, 1fr);
-  align-items: center;
-  column-gap: 15px;
-}
-.header-bottom-left h3 {
-  grid-column-start: 2;
-}
-
-.header-bottom-left h2 {
-  grid-column-start: 2;
-  align-self: start;
-}
-
-.search-input {
-  height: 30px;
-  border-radius: 20px;
-  background-color: #ced4da;
-  border: none;
-}
-
-.header-bottom {
-  grid-column-start: 1;
-  grid-column-end: span 2;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-} */
-
 .sidebar {
   width: 100%;
   grid-column-start: 1;
