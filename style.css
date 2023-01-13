@@ -66,6 +66,7 @@ img.login-avatar-img {
   align-items: center;
   justify-content: space-around;
   font-weight: 500;
+  color: #f5ebe0;
 }
 .header-bottom {
   display: grid;
@@ -87,6 +88,7 @@ img.login-avatar-img {
 }
 .header-hello {
   font-weight: 500;
+  color: #f5ebe0;
 }
 .sidebar {
   width: 100%;
@@ -97,7 +99,7 @@ img.login-avatar-img {
   color: white;
 }
 .sidebar-element h3 {
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .sidebar-element h3:hover {
@@ -160,6 +162,7 @@ img.login-avatar-img {
 .main-content-nav-anno,
 .main-content-nav-trending {
   font-weight: 500;
+  color: #f5ebe0;
 }
 .projects-content {
   margin-top: 10px;
