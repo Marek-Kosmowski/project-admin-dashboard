@@ -22,11 +22,7 @@ img.login-avatar-img {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 180px;
-}
-
-.header {
-  display: grid;
+  grid-template-rows: 190px;
 }
 
 .header-top {
@@ -36,6 +32,7 @@ img.login-avatar-img {
 }
 
 .header-top-left {
+  margin-left: 30px;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -43,6 +40,10 @@ img.login-avatar-img {
 .search-input {
   margin-left: 20px;
   width: 60%;
+  height: 25px;
+  border-radius: 20px;
+  background-color: #dee2e6;
+  border: none;
 }
 .header-top-container {
   margin-right: 7rem;
@@ -52,17 +53,25 @@ img.login-avatar-img {
 }
 .header-bottom {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 70% 30%;
   align-items: center;
-
 }
-.header-bottom-buttons{
+/* .header-bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+.header-bottom-left {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-bottom-right ul {
+  padding: 0;
+  margin-right: 30px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-}
-.header-bottom-left{
-  display: flex;
 }
 
 /* .header {
