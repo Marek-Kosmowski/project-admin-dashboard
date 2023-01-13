@@ -96,11 +96,11 @@ img.login-avatar-img {
   background-color: #0a2647;
   color: white;
 }
-.sidebar-element {
+.sidebar-element h3 {
   transition: 0.3s;
 }
 
-.sidebar-element:hover {
+.sidebar-element h3:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
