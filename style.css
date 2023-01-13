@@ -190,9 +190,20 @@ img.login-avatar-img {
   color: #00072d;
   transition: 0.3s;
   border-left: solid 6px #0a2647;
+  display: grid;
+  grid-template-rows: 80% 20%;
+  align-items: center;
+}
+.card-imgs {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  margin-right: 10px;
+}
+.card-imgs img {
+  width: 30px;
 }
 .card:hover {
-  /* box-shadow: 0 2em 3em 1em #6c757d; */
   transform: scale(1.1);
   cursor: pointer;
   box-shadow: 0 0 8px white;
@@ -249,6 +260,7 @@ img.login-avatar-img {
 }
 .card-title {
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .card-title-announcement {
